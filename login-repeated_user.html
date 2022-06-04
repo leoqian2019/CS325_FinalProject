@@ -1,0 +1,32 @@
+<!-- 
+    File: login-repeated_user.html
+    Name: Leo Qian
+    Class: CS325, Jan 2022
+    Final Project
+    Due date: Last day of class
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="login.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="login.js"></script>
+     <title>Login</title>
+ </head>
+ <body>
+     <a href="homepage.html">Homepage</a>
+     <h1>Login</h1>
+     <p id="error">Your account already exists, please login.</p>
+     <form action="login.php" method="POST" class="form">
+         <p>Email</p>
+         <input type="text" name="email" class="textInput" id="email"
+             pattern="^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$" title="Please enter a valid email address">
+         <p>Password</p>
+         <input type="password" name="password" class="textInput" id = "password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
+         title="Your password should include at least 1 uppercase, 1 lowercase, 1 digit, and 1 special character
+         with a minimum of 8 characters">
+         <p><input type="submit" value="Login" class="btn"></p>
+     </form>
+ </body>
+ </html>

@@ -1,0 +1,21 @@
+/* File: profile.css
+Name: Leo Qian
+Class: CS325, Jan 2022
+Final Project
+Due date: Last day of class */
+
+form {
+    font-size: 20pt;
+    float: left;
+    margin-top: 5%;
+    margin-left: 42%;
+    clear: both;}
+
+.textInput {font-size: 25pt;}
+
+.btn {font-size: 20pt;
+border-radius: 5px;
+padding-left: 5%;padding-right: 5%;
+text-align: center;}
+
+input.btn:hover {border: 1px solid black;}

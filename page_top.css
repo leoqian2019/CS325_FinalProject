@@ -1,0 +1,12 @@
+/* File: page_top.css
+Name: Leo Qian
+Class: CS325, Jan 2022
+Final Project
+Due date: Last day of class */
+
+body {font-family: Arial, Helvetica, sans-serif; background-color: lightyellow;}
+img {float: left; height: 3%; width: 3%;}
+h1 {float: left;width: 47%;}
+details {float:right;margin-top: 2%; text-align: right;}
+
+img:hover {border: 1px solid black;}

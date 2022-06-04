@@ -1,0 +1,21 @@
+/* File: dashboard.css
+Name: Leo Qian
+Class: CS325, Jan 2022
+Final Project
+Due date: Last day of class */
+
+h2 {float: left; text-align: center; font-size: 35pt; margin-left: 40%;line-height: 150%;}
+
+form {float: left; clear: both; font-size: 30pt;line-height: 100%; margin-left:40%;margin-right: 13%;}
+p {text-align: center}
+input {font-size: 20pt;}
+div {font-size: 20pt; width: 30%;}
+select {float: left; clear: both; font-size: 20pt; margin-left: 50%;}
+
+#anualRev {float: left; clear: both;}
+
+#vendor {float: left; margin-left: 8%;}
+
+#monAct {float: right; }
+
+#rev {text-decoration: underline;}
